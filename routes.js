@@ -3,7 +3,7 @@ const router = express.Router();
 const xlsx = require('xlsx');
 const readXlsxFile = require('read-excel-file/node');
 const db = require('./db');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
